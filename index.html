@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Habit Tracker</title>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <div class="logo">
+          <img src="assets/squares.svg" />
+          <h1>habits</h1>
+        </div>
+        <button>
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3.125 10H16.875"
+              stroke="#8B5CF6"
+              stroke-width="1.88"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10 3.125V16.875"
+              stroke="#8B5CF6"
+              stroke-width="1.88"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Registrar meu dia
+        </button>
+      </header>
+      <main>
+        <form action="/">
+
+          <div class="habits">
+            <div class="habit">🏃‍♂️</div>
+            <div class="habit">💧</div>
+            <div class="habit">🍎</div>
+          </div>
+          
+          <div class="days">
+            <div class="day">
+              <div>03/01</div>
+              <input type="checkbox" name="run" />
+              <input type="checkbox" name="water" checked />
+              <input type="checkbox" name="food" />
+            </div>
+            <div class="day">
+              <div>04/01</div>
+              <input type="checkbox" name="run" />
+              <input type="checkbox" name="water" checked />
+              <input type="checkbox" name="food" />
+            </div>
+          </div> 
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
